@@ -1,31 +1,26 @@
 fun main (){
-    var text = "akirachix"
-    println(text[0].toString()+text[2]+text[3])
-    var m =sentence("dallen",20)
-    println(m)
-    var d = word()
-    println(d)
-    identity("DALLEN")
-    identity("SPERIA")
+
+    val word ="codehive"
+    val f = word[4].toString()+word[5]+word[6]+word[7]
+    println(f)
+    var r =modulus(20,3)
+    println(r)
+    var u =sentence("dallen",20)
+    println(u)
+    var x =word()
+    println(x)
+}
+fun modulus(e:Int , t:Int):Int{
+    var mod =e%t
+    return mod
+}
+fun sentence(name:String , years:Int): String{
+    var y =("Hi my name is $name and i am $years years old")
+   return y
 }
 
-fun sentence(name: String , years: Int) :String{
-    var f =("Hi, my is $name and i am $years years old")
-    return(f)
-
-}
 fun word():Int{
-    var word ="success"
-    var l = word.length
-    return l
+    val d="success"
+    val g =d.length
+    return g
 }
-
-fun identity(name:String){
-    if(name=="DALLEN")
-        println("thats me")
-    else
-        println("i dont know who that is")
-}
-
-
-
