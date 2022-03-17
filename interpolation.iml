@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module type="JAVA_MODULE" version="4">
-  <component name="NewModuleRootManager" inherit-compiler-output="true">
+  <component name="NewModuleRootManager" inherit-compiler-output="true"> SAMPLE-1
         <orderEntry type="inheritedJdk" />
     < interpolation file code changes in the master branch to form a new branch - team member1" />
 
+        < code changes to the master branch directly by team 1" /> master
     <exclude-output />
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
