@@ -5,8 +5,8 @@ fun main (){
     println(m)
     var d = word()
     println(d)
-    identity("DALLEN")
-    identity("SPERIA")
+    identity("DAN")
+    identity("SPERA")
 }
 
 fun sentence(name: String , years: Int) :String{
@@ -21,7 +21,7 @@ fun word():Int{
 }
 
 fun identity(name:String){
-    if(name=="DALLEN")
+    if(name=="DAN")
         println("thats me")
     else
         println("i dont know who that is")
